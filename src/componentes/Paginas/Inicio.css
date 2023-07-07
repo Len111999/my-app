@@ -1,0 +1,11 @@
+.contenedor-portatil{
+    display: flex;
+    padding-right: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagen-portatil{
+    width: 500px;
+    height: auto;
+}
