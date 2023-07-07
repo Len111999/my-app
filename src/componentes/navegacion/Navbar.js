@@ -1,9 +1,9 @@
-import React, {useEffect, useState} from 'react';
+import React /*{useEffect, useState}*/ from 'react';
 import styles from './NavBar.css';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-  const [hoverColor, setHoverColor] = useState('#b3c8fe');
+ /* const [hoverColor, setHoverColor] = useState('#b3c8fe');
 
   useEffect(() =>{
     const colors = ['#D03DFF', '#FF3DB8', '#FF3D3D', '#FFC73D', '#4FFF3D', '#3DE5FF', '#463DFF'];
@@ -15,9 +15,9 @@ const Navbar = () => {
     }, 1000);
     return () => clearInterval(intervalId);
   }, []);
-
+*/
   return (
-    <nav className={styles.nav} style={{'--hover-color': hoverColor }}>
+    <nav className={styles.nav} /*style={{'--hover-color': hoverColor }}*/>
       <ul>
         <li className="logo">
           <Link to="/Inicio">N-EX <span className={styles.mini}></span></Link>

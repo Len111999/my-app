@@ -31,6 +31,81 @@ nav {
 }
 
 nav:hover {
+  border-bottom: 2px solid #b3fee9;
+  box-shadow: 0 0 20px rgba(179, 254, 233, 0.5);
+}
+
+nav:hover li a {
+  color: #b3fee9;
+  text-shadow: 0 0 10px rgba(179, 254, 233, 0.8);
+}
+
+ul {
+  text-align: center;
+  height: 50px;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.025), rgba(0, 0, 0, 0.4));
+}
+
+li {
+  display: inline-block;
+}
+
+li:not(:first-child) {
+  padding: 0 2%;
+}
+
+li:hover a {
+  position: relative;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+a {
+  text-decoration: none;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding: 5px 15px;
+}
+
+li:not(:first-child) a:hover {
+  border: 0px 2px solid #b3fee9;
+  background: rgba(179, 254, 233, 0.25);
+  box-shadow: 0 0 5px 1px #b3fee9;
+  border-bottom: 5px solid #b3fee9;
+  color: black;
+}
+/* Este codigo sirve para que se vea de varios colores cada seg
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+
+* {
+  font-family: "Orbitron", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-weight: 400;
+  transition-duration: 0.5s;
+  color: black;
+}
+
+body {
+  background-color: #3f3f3f;
+}
+
+.logo {
+  float: left;
+  margin-left: 5%;
+  line-height: 50px;
+  font-size: 2em;
+}
+nav {
+  background-color: #222;
+  border-radius: 0 0 50px 0;
+  box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+nav:hover {
   border-bottom: 2px solid var(--hover-color, #b3fee9);
   box-shadow: 0 0 20px rgba(179, 254, 233, 0.5);
 }
@@ -73,3 +148,4 @@ li:not(:first-child) a:hover {
   border-bottom: 5px solid var(--hover-color, #b3fee9);
   color: black;
 }
+*/
